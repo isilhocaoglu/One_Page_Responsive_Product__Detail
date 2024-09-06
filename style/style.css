@@ -1,0 +1,167 @@
+.top{
+    height: 30px;
+    background-color: black;
+}
+.logo{
+    text-align: center;
+    padding: 25px;
+}
+  /* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+  }
+  .breadcrumb-container {
+    text-align: left; /* Aligns the breadcrumb list to the left */
+    padding: 15px 95px;
+    margin-bottom: 0px;
+}
+
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: rgb(53, 53, 53);
+    text-decoration: underline;
+  }
+span.price{
+    font-weight: bolder;
+  }
+span.oldprice{
+    text-decoration: line-through;
+    color: grey;
+}
+.favbutton {
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+  }
+.favbutton img{
+    height: 20px;
+}
+.favbutton:hover{
+  color: red;
+}
+.button2{
+  color: #000;
+}
+.button2:hover{
+  color: red;
+}
+.d-grid button{
+    width: 400px;
+    height: 55px;
+    background-color: rgb(245, 123, 30);
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.d-grid button:hover{
+  background-color: rgb(214, 109, 29);
+}
+.button2{
+    background-color: white;
+    border: none;
+}
+.button2 img{
+    height: 20px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.oldprice{
+  margin-left: 20px;
+}
+.price{
+  font-size: 32px;
+}
+.smallImgs {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px -5px;
+  padding: 5px;
+}
+
+.smallImgs img {
+  max-width: 130px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s; /* Smooth transition effect for opacity change */
+  width: 100%;
+}
+
+.smallImgs img:hover {
+  opacity: 1; /* When it comes to it, the opacity will be 1 */
+}
+.smallImgs div.active img {
+  opacity: 1; /* When it comes to it, the opacity will be 1 */
+}
+
+.menu-wrapper {border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.menu-wrapper .menu {margin: 0;text-align: center;font-size: 0;}
+.menu-wrapper .menu>li {display: inline-block;position: relative;margin: 0 7px;}
+.menu-wrapper .menu>li>a {display: block;padding: 15px; text-decoration: none;}
+.menu-wrapper .menu>li a span {font-size: 14px;display: block;color: #000;font-weight: 600;}
+.menu-wrapper .menu>li:after {content: '';background-color: transparent;height: 2px;position: absolute;bottom: -1px;left: 0;right: 0;transition: background-color .4s ease;-webkit-transition: background-color .4s ease;}
+.menu-wrapper .menu>li:hover:after {background-color: #000;}       
+
+.menu-wrapper .menu>li .glyphicon{display: none;}
+.menu-button{display: none;}
+.menu-button .glyphicon{font-size: 30px;}
+
+@media(max-width:768px){
+    .menu-button {display: block; text-align: center;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+    .menu-button>span {margin: 10px 0;color: #000;}
+    .menu-wrapper .menu>li .glyphicon {display: block; font-size: 15px;position: absolute;right: 0;z-index: 9;padding: 6px;}
+
+    .menu-wrapper {display: none; border: none;}
+    .menu-wrapper.open {display: block;}
+    .menu-wrapper.open .container {padding: 0;}
+    
+    .menu-wrapper .menu>li{display: block; border-bottom: 1px solid #ddd;margin: 0;}
+    .menu-wrapper.open .menu>li>a {padding: 5px 5px 5px 10px;text-align: left;}
+    .menu-wrapper .menu>li:after{border: none;}
+    .menu-wrapper .menu>li:hover:after{background-color: transparent;}
+    .card-head>h1 {margin: 0 auto 20px;}
+    .container {width: 100%;}
+
+}
+@media(max-width:992px){
+  .menu-wrapper .menu>li{margin: 0 5px;}
+  .menu-wrapper .menu>li>a{padding: 15px 5px;}
+}
+
+@media(max-width:1024px){
+    .card-head>h1 {margin: 0 140px 20px 0;}
+}
