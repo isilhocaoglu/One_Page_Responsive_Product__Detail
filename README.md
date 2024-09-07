@@ -12,7 +12,7 @@
 ### Responsive View:
 ![web](responsive-view.png)
 </picture>
-### responsive Opened Menu View:
+### Responsive Opened Menu View:
 ![web](responsive-opened-menu.png)
 
 
