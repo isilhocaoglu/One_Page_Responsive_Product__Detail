@@ -11,19 +11,19 @@
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="web-view" src="web-view">
+ <img alt="web-view" src="web-view.png">
 </picture>
 ### Responsive View:
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="responsive-view" src="responsive-view">
+ <img alt="responsive-view" src="responsive-view.png">
 </picture>
 ### responsive Opened Menu View:
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="responsive-opened-menu" src="responsive-opened-menu">
+ <img alt="responsive-opened-menu" src="responsive-opened-menu.png">
 </picture>
 
 
