@@ -8,22 +8,11 @@
 |     4| Bootstrap 5.3.3|
 ## Images
 ### Web View:
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="web-view" src="web-view.png">
-</picture>
+![web](web-view.png)
 ### Responsive View:
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="responsive-view" src="responsive-view.png">
+![web](responsive-view.png)
 </picture>
 ### responsive Opened Menu View:
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="responsive-opened-menu" src="responsive-opened-menu.png">
-</picture>
+![web](responsive-opened-menu.png)
 
 
